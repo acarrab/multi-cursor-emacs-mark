@@ -1,0 +1,114 @@
+{
+    "name": "multi-cursor-emacs-mark",
+    "displayName": "multi-cursor-emacs-mark",
+    "description": "multi-cursor implementation of emacs mark functionality with multi-cursor support, as well as new moving schema similar to emacs",
+    "version": "0.0.1",
+    "publisher": "angelo-carrabba",
+    "engines": {
+        "vscode": "^1.15.0"
+    },
+    "categories": [
+        "Other"
+    ],
+    "activationEvents": [
+        "*"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "commands": [
+            {
+                "command": "extension.emacsLikeMarking.setMark",
+                "title": "Mark Set"
+            },
+            {
+                "command": "extension.emacsLikeMarking.cancelMark",
+                "title": "Mark Cancel"
+            },
+            {
+                "command": "extension.emacsLikeMarking.toggleMark",
+                "title": "Mark Toggle"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorBottom",
+                "title": "Markable cursorBottom"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorDown",
+                "title": "Markable cursorDown"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorEnd",
+                "title": "Markable cursorEnd"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorHome",
+                "title": "Markable cursorHome"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorLeft",
+                "title": "Markable cursorLeft"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorPageDown",
+                "title": "Markable cursorPageDown"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorPageUp",
+                "title": "Markable cursorPageUp"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorRight",
+                "title": "Markable cursorRight"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorTop",
+                "title": "Markable cursorTop"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorUp",
+                "title": "Markable cursorUp"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorWordEndRight",
+                "title": "Markable cursorWordEndRight"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorWordStartLeft",
+                "title": "Markable cursorWordStartLeft"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorLineStart",
+                "title": "Markable cursorLineStart"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorWordEndLeft",
+                "title": "Markable cursorWordEndLeft"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorWordLeft",
+                "title": "Markable cursorWordLeft"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorWordRight",
+                "title": "Markable cursorWordRight"
+            },
+            {
+                "command": "extension.emacsLikeMarking.markableCommands.cursorWordStartRight",
+                "title": "Markable cursorWordStartRight"
+            }
+        ]
+    },
+    "scripts": {
+        "vscode:prepublish": "tsc -p ./",
+        "compile": "tsc -watch -p ./",
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0",
+        "mocha": "^2.3.3",
+        "@types/node": "^6.0.40",
+        "@types/mocha": "^2.2.32"
+    }
+}
