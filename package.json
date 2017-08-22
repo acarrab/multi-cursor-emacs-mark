@@ -29,6 +29,10 @@
                 "title": "Mark Toggle"
             },
             {
+                "command": "extension.emacsLikeMarking.editorCut",
+                "title" : "Mark Editor Cut"
+            },
+            {
                 "command": "extension.emacsLikeMarking.markableCommands.cursorBottom",
                 "title": "Markable cursorBottom"
             },
