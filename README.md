@@ -6,7 +6,7 @@ It is **using default cursor movement commands** in order to **support** what vs
 
 ## Functionality
 
-Gives access to new markable commands and additional miscellaneous commands that can be used however you would like. (like a replacement function for cut which also cancels mark when you cut text).  The commands implemented can be put together to mimic whatever behavior you would like by using the commands given. That can be done by using [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros) to add support for things that are not supported yet. You can also add feature requests on [github](https://github.com/acarrab/multi-cursor-emacs-mark).
+Gives access to new markable commands and additional miscellaneous commands that can be used however you would like. The commands implemented can be put together to mimic whatever behavior you would like by using the commands given. `setMark` and `cancelMark` have some logic behind them, but the rest of it should be able to be done with macros. That can be done by using [Macros](https://marketplace.visualstudio.com/items?itemName=geddski.macros) to add support for things that are not supported yet. You can also add feature requests on [github](https://github.com/acarrab/multi-cursor-emacs-mark).
 
 ## Future Additions
 
