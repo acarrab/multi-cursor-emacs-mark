@@ -2,8 +2,11 @@
     "name": "multi-cursor-emacs-mark",
     "displayName": "multi-cursor-emacs-mark",
     "description": "multi-cursor implementation of emacs mark functionality with multi-cursor support, as well as new moving schema similar to emacs",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "angelo-carrabba",
+    "repository": {
+        "url": "https://github.com/acarrab/multi-cursor-emacs-mark"
+    },
     "engines": {
         "vscode": "^1.15.0"
     },
