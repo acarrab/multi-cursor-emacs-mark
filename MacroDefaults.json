@@ -1,0 +1,170 @@
+[
+    {
+        "key": "ctrl+x",
+        "command": "-editor.action.clipboardCutAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+x",
+        "command": "macros.editor.action.clipboardCutAction_cancelMark",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
+    {
+        "key": "shift+delete",
+        "command": "-editor.action.clipboardCutAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+delete",
+        "command": "macros.editor.action.clipboardCutAction_cancelMark",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+insert",
+        "command": "-editor.action.clipboardPasteAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+insert",
+        "command": "macros.editor.action.clipboardPasteAction_cancelMark",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "-editor.action.clipboardPasteAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "macros.editor.action.clipboardPasteAction_cancelMark",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+backspace",
+        "command": "-deleteLeft",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "shift+backspace",
+        "command": "macros.deleteLeft_cancelMark",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "backspace",
+        "command": "-deleteLeft",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "backspace",
+        "command": "macros.deleteLeft_cancelMark",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "-deleteWordLeft",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+backspace",
+        "command": "macros.deleteWordLeft_cancelMark",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "delete",
+        "command": "-deleteRight",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "delete",
+        "command": "macros.deleteRight_cancelMark",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+delete",
+        "command": "-deleteWordRight",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+delete",
+        "command": "macros.deleteWordRight_cancelMark",
+        "when": "editorTextFocus && !editorReadonly"
+    }
+    /*
+    // Insert this into your user settings so these work
+"macros": {
+        // ---------- Cut and paste commands to cancel mark ----------
+        "editor.action.clipboardCutAction_cancelMark": [
+            "editor.action.clipboardCutAction",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+        "editor.action.clipboardPasteAction_cancelMark": [
+            "editor.action.clipboardPasteAction",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+
+        "cut_cancelMark": [
+            "cut",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+        "paste_cancelMark": [
+            "paste",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+
+        "default:cut_cancelMark": [
+            "default:cut",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+        "default:paste_cancelMark": [
+            "default:paste",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+
+        "deleteLeft_cancelMark": [
+            "deleteLeft",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+        "deleteWordLeft_cancelMark": [
+            "deleteWordLeft",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+
+        // ---------- delete commands that also cancel mark ----------
+        "editor.action.deleteLines_cancelMark": [
+            "editor.action.deleteLines",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+
+        "deleteAllLeft_cancelMark": [
+            "deleteAllLeft",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+
+        "deleteAllRight_cancelMark": [
+            "deleteAllRight",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+
+        "deleteWordEndLeft_cancelMark": [
+            "deleteWordEndLeft",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+
+        "deleteWordEndRight_cancelMark": [
+            "deleteWordEndRight",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+
+        "deleteWordStartLeft_cancelMark": [
+            "deleteWordStartLeft",
+            "extension.emacsLikeMarking.cancelMark"
+        ],
+
+        "deleteWordStartRight_cancelMark": [
+            "deleteWordStartRight",
+            "extension.emacsLikeMarking.cancelMark"
+        ]
+    }
+    */
+]

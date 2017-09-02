@@ -1,0 +1,81 @@
+[
+    /* 
+    This is a basic example of the possible keybinding setup that you could use. You also have to make things 
+    like backspace also cancel mark so I would recommend using the extension macros for that
+    */
+    {
+        "key": "ctrl+m",
+        "command": "extension.emacsLikeMarking.setMark",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+m",
+        "command": "extension.emacsLikeMarking.cancelMark",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+m",
+        "command": "extension.emacsLikeMarking.toggleMark",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorDown",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorUp",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+f",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+b",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorPageDown",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorPageUp",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+f",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorWordRight",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "alt+b",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorWordLeft",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+b",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorHome",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorEnd",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorTop",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "extension.emacsLikeMarking.markableCommands.cursorBottom",
+        "when": "editorTextFocus"
+    }
+]
